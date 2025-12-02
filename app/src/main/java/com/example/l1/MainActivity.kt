@@ -39,5 +39,13 @@ fun DemoText(message: String, fontSize: Float) {
     )
 }
 
+@Preview
+@Composable
+fun DemoTextPreview() {
+    L1Theme() {
+        DemoText(message = "Welcome to Android", fontSize = 12f)
+    }
+}
+
 
 
